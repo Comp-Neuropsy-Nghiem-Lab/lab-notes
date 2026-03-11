@@ -131,6 +131,12 @@ ssh galvani-vs
 	3. Click `galvani-vs`
 So you can also use Terminal in VS Code
 
+> [!HINT] If you meet a password need when you build the second tunnel (local)
+> Add your private key to agent:
+> ```sh
+> ssh-add ~/.ssh/mlcloud_key
+> ```
+
 ## SLURM script
 Give an example:
 ```bash
