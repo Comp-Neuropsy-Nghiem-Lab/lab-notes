@@ -46,6 +46,9 @@ mv {file & foler} {folder}
 # E.g. mv yazi-x86_64-unknown-linux-musl/yazi ~/.local/bin/
 ```
 
+### Dataset download procedure
+Download in your $WORK path **Not** in your $HOME path.
+
 ## Conda
 
 ### New Env building procedure
