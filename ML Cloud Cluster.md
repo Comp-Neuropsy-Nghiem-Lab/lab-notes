@@ -68,7 +68,7 @@ Quit: `Ctrl + X`
 
 2. Shift to another compute node
 ```sh
-srum --pty bash
+srun --pty bash
 # E.g., srun --pty --partition=2080-galvani bash
 ```
 3. Create and activate conda env (MUST use path, not name)
@@ -167,4 +167,4 @@ PORTNUMBER=7317
 | `sbatch`  | Submit batch job | sbatch run.sh                                                                                                        | `squeue` | Job queue          | squeue --me  # view only my jobs               |
 | `scancel` | Cancel job       | scancel 2336123                                                                                                      | `sinfo`  | Partitions/nodes   |                                                |
 | `top`     | CPU              | top  # CPU usage<br>htop  # Better CPU monitor                                                                       | `nvidia` | GPU                | nvidia-smi  # GPU status                       |
-| `free`    | Memory           | free -h  # memory usage                                                                                              | `df`     | DIsk               | df -h  # disk usage                            |
+| `free`    | Memory           | free -h  # memory usage                                                                                              | `du`     | Storage               | du -sh  # folder storage                            |
