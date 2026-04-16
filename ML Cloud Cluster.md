@@ -145,7 +145,7 @@ Give an example:
 ```bash
 #!/bin/bash
 #SBATCH --job-name=vs                 # job name
-#SBATCH --partition=2080-galvani.     # GPU/CPU partition
+#SBATCH --partition=2080-galvani      # GPU/CPU partition
 #SBATCH --time=01:00:00               # running time
 #SBATCH --nodes=1                     # one node
 #SBATCH --ntasks=1                    # one task
